@@ -1,4 +1,4 @@
-console.log("Dopiero się uczę, jest Git ;)");
+console.log("Dopiero się uczę, jest Git");
 
 let abracadabra = document.querySelector(".safety__button");
 let picture = document.querySelector(".safety__image")
