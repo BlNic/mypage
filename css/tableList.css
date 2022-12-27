@@ -1,0 +1,197 @@
+html {
+    box-sizing: border-box;
+}
+
+* ::after,
+::before {
+    box-sizing: inherit;
+}
+
+.list {
+    max-width: 800px;
+}
+
+.list__header {
+    color: #05a708;
+    font-size: 30px;
+    margin: 0;
+}
+
+.list__item {
+    color: #03633d;
+    max-width: 80%;
+    list-style-type: disc;
+    margin: 0;
+}
+
+.list__item--row {
+    padding-left: 30px;
+    margin: 10px 20px;
+}
+
+.choose {
+    color: #ffffff;
+    font-size: 36px;
+    background-color: #26d5d4;
+    padding: 10px 10px 10px 20px;
+    text-shadow: 1px 1px rgb(89, 129, 173);
+}
+
+.table {
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.table__body {
+    display: block;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table__cell {
+    font-size: 18px;
+    border: 1px solid rgb(71, 50, 17);
+    text-align: center;
+    width: 170px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.table__cell--header {
+    background-color: rgb(231, 187, 11);
+    color: #fff;
+    max-width: 140px;
+    min-width: 140px;
+    text-shadow: 1px 1px brown;
+}
+
+.table__row:nth-child(even) {
+    background: #eee;
+}
+
+.table__row:hover {
+    background: rgb(206, 185, 142);
+}
+
+.writeToMe {
+    color: #b10b6c;
+    font-size: 22px;
+    text-align: center;
+}
+
+.inquiry {
+    color: #eee;
+    background-image: linear-gradient(to bottom, rgb(31, 212, 73), rgb(31, 154, 60));
+    padding: 20px 40px;
+    border-radius: 20px;
+    line-height: 2;
+    margin: 2% auto;
+    max-width: 800px;
+}
+
+.inquiry__field {
+    border-radius: 10px;
+}
+
+.inquiry__legendHeader {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.inquiry__dataForm {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.inquiry__dataForm--text {
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    max-width: 270px;
+}
+
+.inquiry__dataForm--field {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    border: 1px solid rgb(137, 134, 134);
+    border-radius: 5px;
+}
+
+.inquiry__dataForm--field:invalid {
+    background-color: rgb(238, 245, 203);
+}
+
+.inquiry__starField {
+    color: rgb(133, 131, 131);
+    font-size: 18px;
+    margin: -30px -5px;
+}
+
+.inquiry__dataForm--bundle {
+    max-width: 200px;
+    padding: 20px 0 0;
+    font-size: 20px;
+    margin-top: 40px 0;
+}
+
+.inquiry__legendHeader--input {
+    display: inline;
+    font-size: 24px;
+    padding: 3%;
+}
+
+.inquiry__button {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.jsForm__body {
+    max-width: 200px;
+    color: rgb(249, 249, 249);
+    background-image: linear-gradient(to bottom, rgb(244, 67, 161), rgb(208, 17, 119));
+    padding: 10px 10px 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(136, 124, 29);
+    margin: auto;
+}
+
+.jsForm__legend {
+    color: rgb(249, 249, 249);
+    background-image: linear-gradient(to bottom, rgb(235, 119, 181), rgb(212, 3, 114));
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(100, 8, 78);
+    margin: auto;
+}
+
+.jsBmi {
+    width: 60px;
+    background-image: linear-gradient(to bottom, rgb(63, 207, 96), rgb(31, 154, 60));
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    text-shadow: 1px 1px rgb(46, 60, 154);
+}
+
+.bmiButton {
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(113, 3, 58);
+    font-size: 18px;
+    background-color: #e3c710;
+    text-align: center;
+}
+
+.clearButton {
+    padding: 5px 8px;
+    border-radius: 20px;
+    color: #eee;
+    background-color: #8d8c87;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+}
