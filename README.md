@@ -1,16 +1,7 @@
-# homepage
-## subheader
+# Blanka Nicman
+## Moja pierwsza strona
 **coś tłustego** 
-coś chudego 
-*coś krzywego* <br>
-lista uporządkowana
-1. punkt
-2. punkt
 
-Lista nieuporządkowana
-- punkt
-- punkt
+https://blnic.github.io/mypage/
 
-[moja strona](http://blanic.pl)
-
-http://blanic.pl
+[moja strona stworzona z tamplate'u](http://blanic.pl)
