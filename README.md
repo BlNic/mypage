@@ -1,7 +1,4 @@
 # Blanka Nicman
-## Moja pierwsza strona
-**coś tłustego** 
+## My very first front end page
 
 https://blnic.github.io/mypage/
-
-[moja strona stworzona z tamplate'u](http://blanic.pl)
