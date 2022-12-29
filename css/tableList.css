@@ -123,6 +123,10 @@ html {
     background-color: rgb(238, 245, 203);
 }
 
+.inquiry__dataForm__file {
+    max-width: 220px;
+}
+
 .inquiry__starField {
     color: rgb(133, 131, 131);
     font-size: 18px;

@@ -98,6 +98,11 @@ html {
     background-image: linear-gradient(to bottom, rgb(63, 207, 96), rgb(31, 154, 60));
 }
 
+.paragraph {
+    text-indent: 5%;
+    padding: 5%;
+}
+
 .safety {
     max-width: 60%;
     background-color: rgb(225 240 205);
