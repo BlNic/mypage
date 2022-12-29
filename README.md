@@ -1,4 +1,4 @@
 # Blanka Nicman
-## My very first front end page
+## My very first developer's page
 
 https://blnic.github.io/mypage/
