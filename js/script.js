@@ -18,5 +18,4 @@
     safetyButton.addEventListener("click", removeImage);
 
     welcome();
-
 }
