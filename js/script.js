@@ -1,23 +1,30 @@
-console.log("Dopiero się uczę, jest Git");
+const welcome = () => {
+    console.log("Dopiero się uczę, jest Git");
+}
 
-let abracadabra = document.querySelector(".safety__button");
-let picture = document.querySelector(".safety__image")
 
-abracadabra.addEventListener("click", () => {
-    picture.classList.toggle("image__show");
+const removeImage = () => {
+    const safetyButton = document.querySelector(".safety__button");
+    const picture = document.querySelector(".safety__image")
 
-    abracadabra.innerText =
+    safetyButton.innerText =
         picture.classList.contains("image__show")
             ? "Cudnie!"
             : "Pokaż zdjęcie";
-});
+}
+
+const init = () => {
+    safetyButton.addEventListener("click", removeImage);
+
+    welcome();
+}
 
 /* kalkulator BMI
 
-let heightElement = document.querySelector(".jsHeight");
+const heightElement = document.querySelector(".jsHeight");
 let weightElement = document.querySelector(".jsWeight");
 let jsForm = document.querySelector(".jsForm");
-let jsBmi = document.querySelector(".jsBmi");
+const jsBmi = document.querySelector(".jsBmi");
 
 jsForm.addEventListener("submit", (event) => {
     event.preventDefault();
