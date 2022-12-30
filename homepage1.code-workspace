@@ -4,13 +4,10 @@
             "path": "."
         },
         {
-            "path": "../liknksy"
-        },
-        {
             "path": "../converter-project"
         }
     ],
     "settings": {
-        "liveServer.settings.multiRootWorkspaceName": "homepage"
+        "liveServer.settings.multiRootWorkspaceName": "converter-project"
     }
 }

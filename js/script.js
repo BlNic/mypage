@@ -12,7 +12,7 @@ abracadabra.addEventListener("click", () => {
             : "Pokaż zdjęcie";
 });
 
-/* kalkulator BMI*/
+/* kalkulator BMI
 
 let heightElement = document.querySelector(".jsHeight");
 let weightElement = document.querySelector(".jsWeight");
@@ -47,4 +47,4 @@ jsForm.addEventListener("reset", () => {
 jsForm.addEventListener("submit", (event) => {
     event.preventDefault();
     console.log('Formularz wysłany');
-})
+})*/
