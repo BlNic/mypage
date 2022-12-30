@@ -6,5 +6,5 @@ https://blnic.github.io/mypage/
 ## I made my project using:
 - HTML
 - CSS
-- JavaScript
+- JavaScript ES6+
 - BEM
