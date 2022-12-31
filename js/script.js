@@ -3,7 +3,7 @@
         console.log("Dopiero się uczę, jest Git");
     }
 
-    const removeImage () => {
+    const removeImage = () => {
         picture.classList.toggle("image__show");
 
         safetyButton.innerText =
