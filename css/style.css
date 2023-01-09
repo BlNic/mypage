@@ -27,11 +27,16 @@ html {
     margin: -20px 0 0 0;
 }
 
-.headerPic {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
+.header__pic {
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-basis: 50%;
     border-radius: 40px;
+}
+
+.paragraph__intro {
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .bodyBox {
