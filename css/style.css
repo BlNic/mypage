@@ -35,7 +35,8 @@ html {
 }
 
 .bodyBox {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     font-size: 18px;
     font-family: "Quicksand", sans-serif;
